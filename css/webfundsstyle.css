@@ -1,0 +1,244 @@
+*{
+	margin:0;
+	padding:0;
+}
+h5{
+	display:inline-block;
+	font-family:"Myriad", Helvetica, Lucida;
+	width:100px;
+}
+
+body{
+	width:850px;
+	background-color:lightgray;
+}
+.makeWhite{
+	color:white;
+}
+
+#container{
+	width:660px;
+	height:900px;
+	background-color:white;
+	padding:20px;
+	margin:0px 50px 0px 50px;
+}
+
+#header{
+	width:595px;
+	height:40px;
+	margin-left:20px;
+	background-color:rgb(242,242,242);
+	border-radius: 5px;
+	border:1px solid lightgray;
+}
+	#menuImage{
+		display:inline-block;
+		margin:0;
+		padding:0;
+		width:48px;
+		height:39px;
+	}
+
+	#navBar{
+		display:inline-block;
+		vertical-align: top;
+	}
+		#navBarContainer{
+			display:inline-block;
+			border-radius: 5px;
+			vertical-align: top;
+			margin-top:10px;
+			margin-left:10px;
+		}
+
+		#navBar li{
+			display:inline-block;
+			font-family:"Myriad", Helvetica, Lucida;
+			font-size:0.7em;
+			padding: 0px 10px 0px 10px;
+		}
+			#searchBar{
+				display:inline-block;
+				width:120px;
+				height:20px;
+				border-radius: 10px;
+				margin:10px 0px 10px 90px;
+				vertical-align: top;
+			}
+
+	#Accordance10{
+		margin:10px 20px 5px 20px;
+		width:595px;
+		height:280px;
+	}
+		#mainpicBox{
+			margin:0;
+			padding:0;
+			height:250px;
+			width:595px;
+		}
+
+		#midBarLinks{
+			display:inline-block;
+			font-family:"Myriad", Helvetica, Lucida;
+			color:rgb(24,188,249);
+			font-size:0.5em;
+			width:595px;
+			height:20px;
+		}
+			#midBarLinks ul{
+				padding:5px;
+				height:15px;
+				background-color:rgb(104,106,107);
+				border-radius-bottom:5px;
+			}
+			#midBarLinks li{
+				display:inline;
+				padding:0px 10px 0px 10px;
+			}
+
+/*Section for all the Middle 'Discover Accordance' Products*/
+	#discoverAccordance{
+		display:inline-block;
+		margin:0px 20px 0px 20px;
+		width:595px;
+		height:350px;
+		background-color:rgb(234,234,234);
+		border-bottom:1px solid lightgray;
+	}
+
+	#discoverHeader{
+		border:1px solid lightgray;
+		background-color:white;
+	}
+		#discovertxt{
+			display:inline-block;
+			margin:20px 60px 20px 15px;
+			height:20px;
+			width:300px;
+			color:gray;
+			font-family:"Myriad", Helvetica, Lucida;
+		}
+
+		#browseStoreButton{
+			width:180px;
+			height:25px;
+			display:inline-block;
+			font-family:"Myriad", Helvetica, Lucida;
+			color:white;
+			background-color:rgb(47,160,188);
+			border-radius:5px;
+			font-size:0.8em;
+			border: 1px solid lightgray;
+		}
+			#browseTxt{
+				width:100px;
+				display:inline-block;
+				margin:5px 20px 5px 15px;
+			}
+			#arrows{
+				display:inline-block;
+				width:15px;
+				margin-left:10px;
+			}
+
+		/*CRUCIAL - THIS SECTION CONTAINS ALL LAYERING FOR
+					FOUR CONTENT BOXES*/
+
+	#contentBoxContainer{
+		width:588px;
+		height:250px;
+		padding:10px 0px 10px 5px;
+		border-bottom:1px solid lightgray;
+		border-right:1px solid lightgray;
+		border-left:1px solid lightgray;
+	}
+
+	.contentBox{
+		display:inline-block;
+		width:130px;
+		height:230px;
+		vertical-align: top;
+		margin-left:10px;
+		border-right:1px;
+	}
+		.contentTop{
+			width:130px;
+			height:40px;
+			margin:10px 0px 0px 0px;
+		}
+
+		.picbox{
+			height:100px;
+			margin: 10px 0px 0px 0px;
+		}
+
+		p.contentTxt{
+			font-family:"Myriad", Helvetica, Lucida;
+			width:130px;
+			height:50px;
+			font-size: 0.6em;
+		}
+
+
+		.contentButton{
+			width:130px;
+			height:20px;
+			border-radius: 5px;
+			background-color:rgb(14,223,245);
+			font-family:"Myriad", Helvetica, Lucida;
+			font-size:0.6em;
+			color:white;
+		}
+
+/*!!! CSS for all the Links at the very Bottom of the PAge*/
+	#bottomContentLists{
+		margin: 10px 0px 0px 20px;
+		width:600px;
+		height:200px;
+	}
+		#smallBoxContainer{
+			width:600px;
+			height:160px;
+		}
+
+			.smallBox{
+				display:inline-block;
+				width:80px;
+				height:100px;
+				margin-right: 10px;
+				vertical-align: top;
+			}
+
+			h5.bottomHead{
+				width:60px;
+				height:10px;
+				font-size:0.7em;
+				padding-bottom:5px;
+				margin:5px 0px 5px 0px;
+				font-family:"Myriad", Helvetica, Lucida;
+				border-bottom:1px solid lightgray;
+			}
+
+			.bottomList{
+				font-family:"Myriad", Helvetica, Lucida;
+				font-size:0.6em;
+				color:gray;
+				margin-top:5px;
+			}
+				.bottomList li{
+					margin-bottom:5px;
+				}
+
+		#bottomContactBox{
+			padding:10px 0px 0px 0px;
+			margin:10px 0px 0px 0px;
+			width:600px;
+			height: 20px;
+			border-top:1px solid lightgray;
+		}
+			#bottomContactBox p{
+				font-family:"Myriad", Helvetica, Lucida;
+				font-size:0.5em;
+			}
